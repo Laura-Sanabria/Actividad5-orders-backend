@@ -1,0 +1,448 @@
+[
+  {
+    "id": 1,
+    "orderNumber": "ORD-1001",
+    "orderDate": "2026-04-01T10:15:00",
+    "totalAmount": 129.80,
+    "customer": {
+      "id": 1,
+      "firstName": "Carlos",
+      "lastName": "Ramírez",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "phone": "+57 300 123 4567"
+    },
+    "items": [
+      {
+        "id": 1,
+        "product": {
+          "id": 1,
+          "productName": "Café Colombiano Premium",
+          "unitPrice": 24.90,
+          "package": "Caja x 500g",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 1,
+            "companyName": "Andes Coffee Export",
+            "contactName": "Laura Méndez",
+            "contactTitle": "Sales Manager",
+            "city": "Medellín",
+            "country": "Colombia",
+            "phone": "+57 604 555 1200",
+            "fax": null
+          }
+        },
+        "unitPrice": 24.90,
+        "quantity": 2
+      },
+      {
+        "id": 2,
+        "product": {
+          "id": 2,
+          "productName": "Chocolate Orgánico 70%",
+          "unitPrice": 40.00,
+          "package": "Caja x 12 unidades",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 2,
+            "companyName": "Cacao del Pacífico",
+            "contactName": "Andrés Salazar",
+            "contactTitle": "Account Executive",
+            "city": "Cali",
+            "country": "Colombia",
+            "phone": "+57 602 555 8821",
+            "fax": null
+          }
+        },
+        "unitPrice": 40.00,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "orderNumber": "ORD-1002",
+    "orderDate": "2026-04-02T14:30:00",
+    "totalAmount": 85.50,
+    "customer": {
+      "id": 2,
+      "firstName": "María",
+      "lastName": "González",
+      "city": "Quito",
+      "country": "Ecuador",
+      "phone": "+593 99 222 3344"
+    },
+    "items": [
+      {
+        "id": 3,
+        "product": {
+          "id": 3,
+          "productName": "Aceite de Oliva Extra Virgen",
+          "unitPrice": 28.50,
+          "package": "Botella 750ml",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 3,
+            "companyName": "Mediterranean Foods Ltd.",
+            "contactName": "Elena Rossi",
+            "contactTitle": "Export Director",
+            "city": "Barcelona",
+            "country": "España",
+            "phone": "+34 93 555 7821",
+            "fax": "+34 93 555 7822"
+          }
+        },
+        "unitPrice": 28.50,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "orderNumber": "ORD-1003",
+    "orderDate": "2026-04-03T09:45:00",
+    "totalAmount": 156.00,
+    "customer": {
+      "id": 3,
+      "firstName": "Diego",
+      "lastName": "Fernández",
+      "city": "Lima",
+      "country": "Perú",
+      "phone": "+51 987 654 321"
+    },
+    "items": [
+      {
+        "id": 4,
+        "product": {
+          "id": 4,
+          "productName": "Quinua Blanca Orgánica",
+          "unitPrice": 18.00,
+          "package": "Bolsa x 1kg",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 4,
+            "companyName": "Altiplano Grains",
+            "contactName": "Sofía Quispe",
+            "contactTitle": "Operations Lead",
+            "city": "Puno",
+            "country": "Perú",
+            "phone": "+51 51 555 3300",
+            "fax": null
+          }
+        },
+        "unitPrice": 18.00,
+        "quantity": 5
+      },
+      {
+        "id": 5,
+        "product": {
+          "id": 5,
+          "productName": "Mermelada de Mora",
+          "unitPrice": 22.00,
+          "package": "Frasco 250g",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 5,
+            "companyName": "Sabores Andinos",
+            "contactName": "Paula Rojas",
+            "contactTitle": "Commercial Manager",
+            "city": "Bogotá",
+            "country": "Colombia",
+            "phone": "+57 601 555 7610",
+            "fax": null
+          }
+        },
+        "unitPrice": 22.00,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "orderNumber": "ORD-1004",
+    "orderDate": "2026-04-04T16:20:00",
+    "totalAmount": 72.00,
+    "customer": {
+      "id": 4,
+      "firstName": "Ana",
+      "lastName": "Torres",
+      "city": "Santiago",
+      "country": "Chile",
+      "phone": "+56 9 8765 4321"
+    },
+    "items": [
+      {
+        "id": 6,
+        "product": {
+          "id": 6,
+          "productName": "Té Verde Sencha",
+          "unitPrice": 12.00,
+          "package": "Caja x 20 sobres",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 6,
+            "companyName": "Asia Tea Traders",
+            "contactName": "Kenji Nakamura",
+            "contactTitle": "Regional Sales Director",
+            "city": "Tokyo",
+            "country": "Japón",
+            "phone": "+81 3 5555 9080",
+            "fax": "+81 3 5555 9081"
+          }
+        },
+        "unitPrice": 12.00,
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "orderNumber": "ORD-1005",
+    "orderDate": "2026-04-05T11:10:00",
+    "totalAmount": 210.00,
+    "customer": {
+      "id": 5,
+      "firstName": "Lucía",
+      "lastName": "Morales",
+      "city": "Ciudad de México",
+      "country": "México",
+      "phone": "+52 55 1234 5678"
+    },
+    "items": [
+      {
+        "id": 7,
+        "product": {
+          "id": 7,
+          "productName": "Queso Manchego Curado",
+          "unitPrice": 35.00,
+          "package": "Pieza 500g",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 7,
+            "companyName": "La Mancha Dairy Co.",
+            "contactName": "Javier Martín",
+            "contactTitle": "Sales Representative",
+            "city": "Toledo",
+            "country": "España",
+            "phone": "+34 925 555 210",
+            "fax": null
+          }
+        },
+        "unitPrice": 35.00,
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "orderNumber": "ORD-1006",
+    "orderDate": "2026-04-06T13:05:00",
+    "totalAmount": 98.70,
+    "customer": {
+      "id": 6,
+      "firstName": "Jorge",
+      "lastName": "Pineda",
+      "city": "San José",
+      "country": "Costa Rica",
+      "phone": "+506 8888 1122"
+    },
+    "items": [
+      {
+        "id": 8,
+        "product": {
+          "id": 8,
+          "productName": "Salsa Picante Artesanal",
+          "unitPrice": 9.90,
+          "package": "Botella 150ml",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 8,
+            "companyName": "Fuego Maya Foods",
+            "contactName": "Ricardo Castillo",
+            "contactTitle": "Founder",
+            "city": "Mérida",
+            "country": "México",
+            "phone": "+52 999 555 4400",
+            "fax": null
+          }
+        },
+        "unitPrice": 9.90,
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "orderNumber": "ORD-1007",
+    "orderDate": "2026-04-07T08:55:00",
+    "totalAmount": 64.00,
+    "customer": {
+      "id": 7,
+      "firstName": "Valentina",
+      "lastName": "Herrera",
+      "city": "Montevideo",
+      "country": "Uruguay",
+      "phone": "+598 91 234 567"
+    },
+    "items": [
+      {
+        "id": 9,
+        "product": {
+          "id": 9,
+          "productName": "Dulce de Leche Clásico",
+          "unitPrice": 16.00,
+          "package": "Frasco 400g",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 9,
+            "companyName": "Pampa Dulce S.A.",
+            "contactName": "Martín Acosta",
+            "contactTitle": "Key Account Manager",
+            "city": "Buenos Aires",
+            "country": "Argentina",
+            "phone": "+54 11 5555 1930",
+            "fax": null
+          }
+        },
+        "unitPrice": 16.00,
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "orderNumber": "ORD-1008",
+    "orderDate": "2026-04-08T15:40:00",
+    "totalAmount": 180.00,
+    "customer": {
+      "id": 8,
+      "firstName": "Pedro",
+      "lastName": "Castillo",
+      "city": "Panamá",
+      "country": "Panamá",
+      "phone": "+507 6000 7788"
+    },
+    "items": [
+      {
+        "id": 10,
+        "product": {
+          "id": 10,
+          "productName": "Jamón Serrano Reserva",
+          "unitPrice": 45.00,
+          "package": "Paquete 250g",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 10,
+            "companyName": "Iberian Select Foods",
+            "contactName": "Clara Domínguez",
+            "contactTitle": "International Sales",
+            "city": "Madrid",
+            "country": "España",
+            "phone": "+34 91 555 6540",
+            "fax": "+34 91 555 6541"
+          }
+        },
+        "unitPrice": 45.00,
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "orderNumber": "ORD-1009",
+    "orderDate": "2026-04-09T12:25:00",
+    "totalAmount": 54.00,
+    "customer": {
+      "id": 9,
+      "firstName": "Camila",
+      "lastName": "Silva",
+      "city": "São Paulo",
+      "country": "Brasil",
+      "phone": "+55 11 99999 2233"
+    },
+    "items": [
+      {
+        "id": 11,
+        "product": {
+          "id": 4,
+          "productName": "Quinua Blanca Orgánica",
+          "unitPrice": 18.00,
+          "package": "Bolsa x 1kg",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 4,
+            "companyName": "Altiplano Grains",
+            "contactName": "Sofía Quispe",
+            "contactTitle": "Operations Lead",
+            "city": "Puno",
+            "country": "Perú",
+            "phone": "+51 51 555 3300",
+            "fax": null
+          }
+        },
+        "unitPrice": 18.00,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "orderNumber": "ORD-1010",
+    "orderDate": "2026-04-10T17:00:00",
+    "totalAmount": 119.60,
+    "customer": {
+      "id": 10,
+      "firstName": "Santiago",
+      "lastName": "Vega",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "phone": "+54 9 11 2345 6789"
+    },
+    "items": [
+      {
+        "id": 12,
+        "product": {
+          "id": 1,
+          "productName": "Café Colombiano Premium",
+          "unitPrice": 24.90,
+          "package": "Caja x 500g",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 1,
+            "companyName": "Andes Coffee Export",
+            "contactName": "Laura Méndez",
+            "contactTitle": "Sales Manager",
+            "city": "Medellín",
+            "country": "Colombia",
+            "phone": "+57 604 555 1200",
+            "fax": null
+          }
+        },
+        "unitPrice": 24.90,
+        "quantity": 4
+      },
+      {
+        "id": 13,
+        "product": {
+          "id": 8,
+          "productName": "Salsa Picante Artesanal",
+          "unitPrice": 9.90,
+          "package": "Botella 150ml",
+          "isDiscontinued": false,
+          "supplier": {
+            "id": 8,
+            "companyName": "Fuego Maya Foods",
+            "contactName": "Ricardo Castillo",
+            "contactTitle": "Founder",
+            "city": "Mérida",
+            "country": "México",
+            "phone": "+52 999 555 4400",
+            "fax": null
+          }
+        },
+        "unitPrice": 9.90,
+        "quantity": 2
+      }
+    ]
+  }
+]
