@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine, Base
 from app.routers import orders, products
 from app import models
@@ -10,6 +11,18 @@ app = FastAPI(
     title="Orders API - Actividad No.5",
     description="API REST para gestión de pedidos",
     version="1.0.0"
+)
+
+# ========== CONFIGURACIÓN CORS (NECESARIO PARA FRONTEND) ==========
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000",
+        "https://actividad5-frontend.vercel.app"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.get("/api/v1/health")
